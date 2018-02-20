@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="content">
+	<name>Content - Article Shortcode</name>
+	<creationDate>February 19th, 2018</creationDate>
+	<author>3ehrang</author>
+	<authorEmail>3ehrang@gmail.com</authorEmail>
+	<authorUrl>www.24coding.com</authorUrl>
+	<copyright>Copyright (c) 2018 - 2018 www.24coding.com. All rights reserved.</copyright>
+	<license>License, GNU/GPL</license>
+	<version>1.0.0</version>
+	<description>Insert article with title, image, intro text , ... inside and anywhere in another article by short code</description>
+	<files>
+		<filename plugin="shortcode">shortcode.php</filename>
+		<filename>composer.json</filename>
+		<folder>vendor</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="show_image"
+					type="radio"
+					label="Show Image"
+					description="Show Article Image Or Not"
+					class="btn-group btn-group-yesno"
+					default="1"
+					>
+					<option value="1">JSHOW</option>
+					<option value="0">JHIDE</option>
+				</field>
+				<field
+					name="before_title"
+					type="text"
+					default="Some text"
+					label="Before Title"
+					description="Show this text before article title"
+					size="10"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
