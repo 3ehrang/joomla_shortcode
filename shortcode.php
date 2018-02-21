@@ -96,7 +96,7 @@ class PlgContentShortcode extends JPlugin
 	protected function _outputArticle($article)
 	{
 		// get article sef url
-		$url = JRoute::_('index.php?option=com_content&view=article&id='.$article->id);
+		$url = JRoute::_(ContentHelperRoute::getArticleRoute($article->id,  $article->catid));
 		
 		$output = '<a class="inline-article" href="' . $url . '">';
 		
