@@ -1,5 +1,8 @@
 # joomla_shortcode
-Insert Joomla article with title, image, intro text , ... inside and anywhere in another article or joomla content by short code
+Shortcode Simple for Joomla has been developed with standard code and designed to be easy to use and it's free.
+
+Shortcode Simple allows you to simply and easily insert your shortcodes within Joomla articles.
+Insert Joomla article with title, image, intro text , ... inside and anywhere in another article or joomla content by short code.
 
 ## Installation
 - download zip files.
@@ -11,10 +14,12 @@ Insert Joomla article with title, image, intro text , ... inside and anywhere in
 ### Show single article inside another article
 
 - Inside your article add/edit back-end page any where you want to show another article use this code:
+
   ``{article id} like {article 23}``
   
 ## Show a list of articles inside specific tag
 
 - Inside your article add/edit back-end page any where you want to show articles use this code:
+
   ``{tag id} like {tag 18}``
   
