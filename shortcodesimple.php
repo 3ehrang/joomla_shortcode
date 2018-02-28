@@ -21,7 +21,7 @@ require 'vendor/autoload.php';
  * @subpackage  Content.shortcode
  * @since       1.5
  */
-class PlgContentShortcode extends JPlugin
+class PlgContentShortcodesimple extends JPlugin
 {
 
 	/**

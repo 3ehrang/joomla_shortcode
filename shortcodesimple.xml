@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.1" type="plugin" group="content">
-	<name>Content - Article Shortcode</name>
+	<name>Content - Shortcode Simple</name>
 	<creationDate>February 19th, 2018</creationDate>
 	<author>3ehrang</author>
 	<authorEmail>3ehrang@gmail.com</authorEmail>
 	<authorUrl>www.24coding.com</authorUrl>
 	<copyright>Copyright (c) 2018 - 2018 www.24coding.com. All rights reserved.</copyright>
 	<license>License, GNU/GPL</license>
-	<version>1.0.0</version>
+	<version>1.1.0</version>
 	<description>Insert article with title, image, intro text , ... inside and anywhere in another article by short code</description>
 	<files>
-		<filename plugin="shortcode">shortcode.php</filename>
+		<filename plugin="shortcodesimple">shortcodesimple.php</filename>
 		<filename>composer.json</filename>
 		<folder>vendor</folder>
 	</files>
