@@ -38,20 +38,15 @@ class PlgContentShortcodesimple extends JPlugin
 	 */
 	public function onContentPrepare($context, &$article, &$params, $page = 0)
 	{
-	    // Don't run this plugin when the content is being indexed
-	    if ($context == 'com_finder.indexer')
-	    {
-	        return true;
-	    }
+		// Don't run this plugin when the content is being indexed
+	    	if ($context == 'com_finder.indexer')
+	    	{
+	        	return true;
+	    	}
 
 		// Simple performance check to determine whether bot should process further
-		if (strpos($article->text, 'article') === false)
-		{
-			return true;
-		}
-		// Simple performance check to determine whether bot should process further
-		if (strpos($article->text, 'tag') === false)
-		{
+	    	if (strpos($article->text, 'article') === false && strpos($article->text, 'tag') === false)
+	    	{
 			return true;
 		}
 
